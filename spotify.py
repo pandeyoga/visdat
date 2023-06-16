@@ -20,7 +20,7 @@ from bokeh.models import Slider, Select
 
 # In[2]:
 
-url = 'https://raw.githubusercontent.com/pandeyoga/BBCA.JK/main/BBCA.JK%20(2).csv'
+url = 'https://raw.githubusercontent.com/pandeyoga/visdat/main/top10s.csv'
 dataset = pd.read_csv(url)
 data.set_index('year', inplace=True)
 data.head()
